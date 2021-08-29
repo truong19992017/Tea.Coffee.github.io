@@ -1,0 +1,257 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+/* ............................................ */
+/* .................... header ................ */
+/* ............................................ */
+
+.header {
+    width: 100%;
+    height: 120px;
+}
+
+.content-header {
+    width: 60%;
+    height: 120px;
+    margin: 0 auto;
+    display: flex;
+}
+
+/* LOGO */
+.logo-header {
+    width: 30%;
+    height: 100%;
+}
+
+.logo-full {
+    width: 170px;
+    height: auto;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.logo-full img {
+    width: 20px;
+    height: 40px;
+    margin-right: 8px;
+    margin-top: 10px;
+}
+
+.logo-text {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.667em;
+}
+
+.logo-sogan {
+    color: #c2b698;
+    margin-top: -10px;
+}
+
+/* NAV */
+.menu-header {
+    width: 70%;
+    height: 100%;
+}
+
+.nav-header {
+    margin-top: 35px;   
+}
+
+.nav-header ul { 
+    display: flex;
+    margin-left: 170px;
+}   
+
+.nav-header ul li {
+    margin: 8px;
+}
+
+.menu-header-little {
+    display: none;
+    height: 100%;
+    width: 50px;
+}
+/* .menu-header-little button {
+    height: 40px;
+    border: none;
+    background-color: white;
+} */
+
+.menu-header-little i {
+    font-size: 30px;
+    color: #929292;
+}
+
+.menu-little {
+    height: 230%;
+    margin-top: 40px;
+    margin-left: -117px;
+    background-color: #efeeed;
+    text-align: left;
+    padding-right: 20px;
+    display: none;
+}
+.menu-little ul li {
+    margin-top: 20px;
+}
+
+.menu-little ul li a {
+    font-size: 16px;
+    color: #929292;
+}
+
+/* ................................ */
+/* ............. section .......... */
+/* ................................ */
+
+.section {
+    background-image: url(img/coffee_vs_tea_health_benefits_singapore_-1.jpg);
+    width: 100%;
+    height: 600px;
+}
+
+
+/* ................................ */
+/* ............. main .......... */
+/* ................................ */
+
+.main {
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.text-main {
+    text-align: center;
+}   
+
+.text-main h5{
+    color: #929292;
+    margin-top: 25px;
+}
+
+.text-main h2 {
+    margin-bottom: 20px;
+}
+
+/* article */
+.article {
+    text-align: center;
+    padding: 30px;
+    border:white 1px solid;
+    margin-top: 10px;
+    background-color: #efeeed;
+    min-height: 196px;
+}
+
+.article img {
+    width: 80%;
+    border-radius: 50%;
+}
+
+.article h2 {
+    font-size: 22px;
+    margin-top: 15px;
+    color: #686666;
+    font-family: 'Roboto', sans-serif;
+}
+
+.article h3 {
+    font-size: 16px;
+    color: #929292;
+}
+
+.article button{
+    margin-top: 20px;
+    background-color: #efeeed;
+    color: #929292;
+    border: #929292 2px solid;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+
+
+
+/* ................................ */
+/* ............. footer ........... */
+/* ................................ */
+
+.footer {
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+}
+
+.footer-contacts {
+    height: 160px;
+    background-color: #b6b6b6;
+    text-align: center;
+}
+
+.footer-contacts h3 {
+    padding-top: 25px;
+    font-size: 20px;
+    color: white;
+}
+
+.footer-contacts h4 {
+    font-size: 14px;
+    color: rgb(236, 236, 236);
+}
+
+.social-network-contacts i {
+    margin: 10px;
+    color: rgb(236, 236, 236);
+    font-size: 20px;
+}
+
+
+
+
+/* ................ @media ............... */
+@media screen and (max-width: 1000px) {
+    .nav-header {
+        position: relative;
+        right: 30%;
+    }
+    .logo-header {
+        position: relative;
+        right: 20%;
+    }
+}
+
+@media screen and (max-width: 830px) {
+    .nav-header {
+        position: relative;
+        right: 70%;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .nav-header {
+        display: none;
+    }
+
+    .menu-header-little {
+        display: inherit;
+        position: relative;
+        left: 70%;
+        margin-top: 40px;
+    }
+
+}
