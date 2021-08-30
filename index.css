@@ -415,13 +415,21 @@ li a {
     }
 
     .content-blog  {
-        height: 320px;
+        height: 400px;
+    }
+
+    .main {
+        width: 80%;
+    }
+
+    .blog {
+        width: 80%;
     }
 }
 
 @media screen and (max-width: 380px) {
     .content-blog  {
-        height: 270px;
+        height: 330px;
     }
 }
 
