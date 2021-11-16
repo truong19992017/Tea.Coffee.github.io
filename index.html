@@ -34,7 +34,7 @@
                         <li><a href="">ABOUT</a></li>
                         <li><a href="">SHOP</a></li>
                         <li><a href="">CONTACTS</a></li>
-                        <li><a href="">CART</a></li>
+                        <li><a onclick="showCart()" href="">CART<strong class="sumCar">0</strong></a></li>
                     </ul>
                 </div>
             </div>
@@ -46,8 +46,10 @@
                         <li><a href="">ABOUT</a></li>
                         <li><a href="">SHOP</a></li>
                         <li><a href="">CONTACTS</a></li>
-                        <li><a href="">CART</a></li>
+                        <li><a onclick="showCart()" href="">CART<strong class="sumCar">0</strong></a></li>
                     </ul>
+                    <div id="cart" class="cart">
+                    </div>
                 </div>
             </div>
         </div>
@@ -66,23 +68,23 @@
                         <img src="img/product-13-300x300.jpg" alt="">
                         <h2>Passion Fruit</h2>
                         <h3>$9.00</h3>
-                        <button>ADD TO CART</button>
+                        <button onclick="addCart(0)">ADD TO CART</button>
                     </div>
                 </div>
                 <div class="col-xxl-3 col-md-6 col-sm-6">
                     <div class="article">
                         <img src="img/product-21-300x300.jpg" alt="">
                         <h2>Herbal Love</h2>
-                        <h3>$9.00</h3>
-                        <button>ADD TO CART</button>
+                        <h3>$10.00</h3>
+                        <button onclick="addCart(1)">ADD TO CART</button>
                     </div>
                 </div>
                 <div class="col-xxl-3 col-md-6 col-sm-6">
                     <div class="article">
                         <img src="img/product-17-300x300.jpg" alt="">
                         <h2>Chicory</h2>
-                        <h3>$9.00</h3>
-                        <button>ADD TO CART</button>
+                        <h3>$8.00</h3>
+                        <button onclick="addCart(2)">ADD TO CART</button>
                     </div>
                 </div>
                 <div class="col-xxl-3 col-md-6 col-sm-6">
@@ -90,7 +92,7 @@
                         <img src="img/product-10-300x300.jpg" alt="">
                         <h2>Mint & Roses</h2>
                         <h3>$9.00</h3>
-                        <button>ADD TO CART</button>
+                        <button onclick="addCart(3)">ADD TO CART</button>
                     </div>
                 </div>
             </div>
@@ -159,4 +161,5 @@
         </div>
     </footer>
 </body>
+<script src="./main.js"></script>
 </html>

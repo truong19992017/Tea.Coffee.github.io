@@ -443,3 +443,49 @@ li a {
 .menu-little-hover:hover + .menu-little{
     display: inline;
 }
+
+
+
+.sumCar{
+    color: red;
+    font-size: 15px;
+    position: relative;
+    top: -10px;
+}
+.cart{
+    background-color: #c2b698;
+    height: auto;
+    width: 300px;
+    padding: 20px;
+    border-radius: 20px;
+    margin-left: 250px;
+    display: none;
+}
+
+.cart h2{
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    color: rgb(90, 88, 88);
+}
+
+.products{
+    display: flex;
+    height: 50px;
+    width: 300px;
+    margin-top: 10px;
+}
+
+.products h2{
+    align-items: center;
+    color: rgb(90, 88, 88);
+}
+
+.products img{
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.listProduct {
+    color: red;
+}
